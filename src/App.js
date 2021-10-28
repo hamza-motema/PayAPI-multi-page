@@ -11,7 +11,7 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <NavigationBar />
         <Switch>
@@ -30,7 +30,6 @@ function App() {
           <Route path='/contact' />
         </Switch>
       </Router>
-
     </div>
   );
 }

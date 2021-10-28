@@ -1,6 +1,8 @@
+import './css/layout.css'
+
 export const Layout = ({ children }) => {
     return (
-        <div>
+        <div className="layout">
             <main>
                 {children}
             </main>

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@200;600;700;800&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@200;600;700;800&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+h1{
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    text-align: left;
+    color: #36536B;
+}
+
+h2{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+}
+
+h3{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+}
+
+p{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+      flex: 50%;
+    align-items: center;
+}
+
+input{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    height: 48px;
+    width: 445px;
+    left: 0px;
+    top: 264px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    padding-left: 30px;
+    border: none;
+}
+
+button{
+    background: #BA4270;
+    height: 48px;
+    width: 173px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: -100px;
+    z-index: 2;
+    letter-spacing: -0.115385px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    color: #FBFCFE;
+}
+
+.frame1, .frame2{
+    width: 50%;
+}
+.frame1{
+    padding-right: 50px;
+}
+.frame2{
+    padding-left: 50px;
+}
+
+/*------------------------------------------Header-----------------------------------------------*/
+.header{
+    padding: 0px 200px 0px 200px;
+}
+/*-----------------------------------------Partner------------------------------------------------*/
+.partner{
+    height: 472px;
+    left: 0px;
+    top: 737px;
+    padding: 0px 200px 0px 200px;
+    background: #1B262F;
+
+    color: white !important;
+}
+.partner-bg{
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: -300px -400px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-partner{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    background-color: transparent !important;
+    color: #FBFCFE;
+    border: 1px solid #FBFCFE !important;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.partner-bloc{
+    padding-right: 30px;
+}
+.partner-title, .partner-text{
+    color: white;
+}
+/*----------------------------------------Implementation---------------------------------------------*/
+.implementation{
+    padding: 100px 200px 0px 200px;
+}
+/*---------------------------------------UXdesign--------------------------------------------------*/
+.uxdesign{
+}
+
+.part1{
+    height: 780px;
+left: 1050px;
+top: 1653px;
+border-radius: 0px;
+
+    padding: 0px 200px 0px 200px;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat:no-repeat;
+    background-size: auto;
+background-position: 160%;
+}
+
+.part2{
+    padding: 0px 200px 0px 200px;
+}
+img{
+box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+border-radius: 8px;
+}
+.part3{
+    padding: 0px 200px 50px 200px;
+}
+
+.part2 > div {
+    text-align: center;
+    padding: 20px;
+    text-align: center !important;
+}
+
+.part3 > div { 
+    margin-left: auto;
+}
+

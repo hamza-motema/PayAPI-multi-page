@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import logo from "./assets/shared/desktop/logo.svg"
+import './css/navigationBar.css'
+
 const NavigationBar = () => {
     return (
-        <div>
+        <div className="nav navbar">
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={logo} alt="" /></Link>
             </li>
             <li>
                 <Link to="pricing">Pricing</Link>
@@ -15,6 +18,7 @@ const NavigationBar = () => {
             <li>
                 <Link to="contact">Contact</Link>
             </li>
+            <button className="btn"> Schedule a Demo </button>
         </div>
     );
 }
